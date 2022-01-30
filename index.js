@@ -1,6 +1,5 @@
 const createDOMPurify = require('dompurify');
-const jsdom = require("jsdom");
-const { JSDOM } = jsdom;
+const { JSDOM } = require("jsdom");
 
 const http = require('http');
 const url = require('url');
@@ -8,8 +7,7 @@ const url = require('url');
 const requestListener = function (req, res) {
   const queryObject = url.parse(req.url, true).query;
 
-  const { window } = new JSDOM(`...`);
-  const DOMPurify = createDOMPurify(window);
+  const DOMPurify = createDOMPurify(new JSDOM(`...`).window);
 
   const clean = DOMPurify.sanitize(decodeURI(queryObject['q']));
 
