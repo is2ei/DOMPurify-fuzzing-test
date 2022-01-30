@@ -18,7 +18,7 @@ npm start
 
 #### 3) Access
 
-http://localhost
+http://localhost:8080
 
 ## OSS Fuzzer
 
