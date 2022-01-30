@@ -19,3 +19,7 @@ npm start
 #### 3) Access
 
 http://localhost
+
+## OSS Fuzzer
+
+- [s0md3v/XSStrike](https://github.com/s0md3v/XSStrike)
