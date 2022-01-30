@@ -9,7 +9,8 @@ const requestListener = function (req, res) {
 
   const DOMPurify = createDOMPurify(new JSDOM(`...`).window);
 
-  const clean = DOMPurify.sanitize(decodeURI(queryObject['q']));
+  const dirty = decodeURI(queryObject['q']);
+  const clean = DOMPurify.sanitize(dirty);
 
   const responseBody = `
 <html>
