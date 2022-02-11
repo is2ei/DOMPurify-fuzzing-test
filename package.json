@@ -1,28 +1,22 @@
 {
   "name": "dompurify-fuzzing-test",
-  "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/is2ei/DOMPurify-fuzzing-test.git"
+  "author": {
+    "name": "Issei Horie",
+    "email": "develop@is2ei.com",
+    "url": "https://www.is2ei.com"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/is2ei/DOMPurify-fuzzing-test/issues"
-  },
-  "homepage": "https://github.com/is2ei/DOMPurify-fuzzing-test#readme",
+  "license": "UNLICENSED",
   "dependencies": {
-    "dompurify": "^2.3.5",
-    "jsdom": "^19.0.0"
+    "dompurify": "2.3.5",
+    "jsdom": "19.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "2.0.15"
   }
 }
