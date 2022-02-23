@@ -12,7 +12,7 @@
   },
   "license": "UNLICENSED",
   "dependencies": {
-    "dompurify": "2.3.5",
+    "dompurify": "2.3.6",
     "jsdom": "19.0.0"
   },
   "devDependencies": {
